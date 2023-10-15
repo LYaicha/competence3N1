@@ -1,0 +1,235 @@
+:root {
+    --blC:#374F6C;
+    --blue: #71B9E5;
+    --yellow: #ABB833;
+    --white: #ffffff;
+    --darkBlue: #25384F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.header1{
+    border-top: 2px solid var(--darkBlue);
+    width: 100%;
+    height: 3em;
+    background-color: var(--darkBlue);
+
+    
+}
+.navbar1 li{
+    margin: 0 auto;
+    top: 40px;
+}
+.navbar1 a{
+    margin-top: 15px;
+    color: var(--white);
+    font-size: 13px;
+
+}
+.underbold{
+    font-weight: bold;
+
+}
+
+.navbar1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 3em;
+    margin:2px auto;
+    color: var(--white)
+
+}
+.divImgHead{
+    display: flex;
+    /* border: brown solid 5px; */
+    width: 100%;
+    height: 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+#txtengras{
+    font-weight: bold;
+}
+.diImg{
+    /* border: rgb(60, 56, 56) solid 5px;  */
+    /* background-color: #ABB833; */
+    width: 20%;
+    height: 15px;
+}
+.hednav2{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 3em;
+    margin:2px auto;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 3em;
+    margin:2px auto;
+}
+.header2{
+    /* border: 2px solid rgb(187, 255, 0); */
+    width: 100%;
+    height: 5em;
+    
+}
+.navbar2{
+    margin: 5px;
+    /* border: 2px solid rgb(250, 24, 39); */
+    display: flex;
+}
+
+.divactiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.divconx{
+    background-color:var(--blC);
+    border-left: 1px solid black;
+    width: 90px;
+    height: 42px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.divEssai{
+    background-color:var(--yellow);
+    border-right: 1px solid black;
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    justify-content: center;
+    color: var(--darkBlue);
+}
+.divEssai a{
+    color: #25384F;
+}
+.diImg{
+    /* border: #000 solid 2px; */
+    width: 80px;
+    height: 50px;
+    margin: 25px;
+}
+.diImg img{
+    width: 100%;
+    height: 100%;
+}
+.divBaniere{
+    /* border: solid 2px rgb(225, 65, 102); */
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue);
+}
+.divBtext{
+    width: 60%;
+    height: 100%;
+    margin-left: 50px;
+
+    /* justify-content: left; */
+
+}
+.divtxt1{
+    /* border: #25384F solid 2px; */
+    margin: 60px;
+    font-size: 20px;
+    color: var(--darkBlue);
+}
+
+.divtxt1 h1{
+    font-size: 35px;
+    color: var(--darkBlue);
+    font-weight: bolder;
+    
+}
+
+.divtxt1 p{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bolder
+}
+.ditextYellow{
+    /* border: 1px solid blue; */
+    margin-bottom: 15px;
+    width: 200px;
+    margin-left: 47px;
+    height: 60px;
+    margin-top: -35px;
+    /* margin-left: 44px; */
+}
+.ditextYellow button{
+    background-color: var(--yellow);
+    justify-content: center;
+    width: 200px;
+    height: 56px;
+    color: var(--darkBlue);
+    font-weight: bold;
+    border: none;
+}
+.divBimg{
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+}
+.divBimg img{
+    width: 100%;
+    height: 100%;
+}
+.divSBanier{
+    /* border: solid rgb(83, 12, 60) 2px; */
+    /* background-color: red; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.divImgSB{
+    margin:auto 30px;
+    width: 100%;
+    height: 100%;
+}
+.divImgSB img{
+    width: 80%;
+    height: 80%;
+}
+.divtxtSB{
+    margin-right: 70px;
+    width: 100%;
+    height: 100%; 
+    margin-top: 45px;
+}
+.divtxtSB h1{
+    font-size: 35px;
+    color: var(--darkBlue);
+    font-weight: bolder;
+    
+}
+.divtxtSB P{
+    color: var(--darkBlue);
+
+}
+hr{
+    color: var(--blue);
+    background-color: var(--blue);
+    height: 4px;
+}
